@@ -22,7 +22,13 @@ namespace HereShopping
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             app.UseStaticFiles();
-            
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name: "default",
+                    template: "{controller=Product}/{action=Index}/{id?}");
+            });
+
         }
     }
 }
