@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HereShopping", "HereShopping\HereShopping.csproj", "{1B4C1085-A976-45C5-A58A-498C1487013D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingDAL", "ShoppingDAL\ShoppingDAL.csproj", "{D08D2C11-4C1C-4937-B07D-C15EF71A4B47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingBOL", "ShoppingBOL\ShoppingBOL.csproj", "{78F8E8D6-B38A-4646-B30A-C4B7245F18B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{1B4C1085-A976-45C5-A58A-498C1487013D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B4C1085-A976-45C5-A58A-498C1487013D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B4C1085-A976-45C5-A58A-498C1487013D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D08D2C11-4C1C-4937-B07D-C15EF71A4B47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D08D2C11-4C1C-4937-B07D-C15EF71A4B47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D08D2C11-4C1C-4937-B07D-C15EF71A4B47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D08D2C11-4C1C-4937-B07D-C15EF71A4B47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78F8E8D6-B38A-4646-B30A-C4B7245F18B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78F8E8D6-B38A-4646-B30A-C4B7245F18B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78F8E8D6-B38A-4646-B30A-C4B7245F18B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78F8E8D6-B38A-4646-B30A-C4B7245F18B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
