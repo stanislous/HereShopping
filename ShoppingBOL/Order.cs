@@ -12,7 +12,10 @@ namespace ShoppingBOL
         [Key]
         public int OrderId { get; set; }
         [Required]
+        public string OrderName { get; set; }
+        [Required]
         public int Quantity { get; set; }
+
         [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
         public DateTime DateOrder { get; set; }
 
