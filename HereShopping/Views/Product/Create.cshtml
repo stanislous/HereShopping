@@ -1,7 +1,16 @@
-﻿
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model ShoppingBOL.Product
 @{
     ViewData["Title"] = "Create";
 }
 
 <h2>Create</h2>
 
+<div>
+    <form asp-action="Create" asp-controller="Product" method="post">
+        <label asp-for="ProductName">Product Name</label> : <input asp-for="ProductName" type="text"/><br />
+        <label asp-for="PricePerUnit">Price Per Unit</label> : <input asp-for="PricePerUnit" type="text"/><br />
+        <label asp-for="Stock">Stock</label> : <input asp-for="Stock" type="text"/><br />
+        <input type="submit" name="Create New Product" value="Create New Product" style="color: blueviolet"/>
+    </form>
+</div>
