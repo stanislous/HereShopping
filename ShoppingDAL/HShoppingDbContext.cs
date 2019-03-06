@@ -11,10 +11,10 @@ namespace ShoppingDAL
             optionsBuilder.UseSqlServer("Server=ANDROIDAP;Database=HereShoppingDb;Trusted_Connection=true;");
         }
 
-        public Customer Customer { get; set; }
-        public Product Product { get; set; }
-        public Order Order { get; set; }
-        public Product_Order ProductOrder{ get; set; }
-
+        public DbSet<Customer> Customers{ get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<Product_Order> ProductOrders{ get; set; }
+        
     }
 }
