@@ -17,6 +17,11 @@ namespace HereShopping.Controllers
             customerBl = new CustomerBL();
         }
 
+        public IActionResult Index( )
+        {
+            return View();
+        }
+
         [HttpGet]
         public IActionResult Create()
         {
