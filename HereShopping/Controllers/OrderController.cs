@@ -30,6 +30,7 @@ namespace HereShopping.Controllers
         public IActionResult Create(ShoppingBOL.Order order)
         {
             orderBl.CreateOrder(order);
+            orderBl.SaveChanges();
             return RedirectToAction("Create", "Order");
         }
     }
